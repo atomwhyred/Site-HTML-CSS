@@ -1,11 +1,11 @@
-/* FUENTES */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+/* FUENTE NUNITO SANS */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap');
 
 /* RESET */
 *{
     margin: 0;
     padding: 0;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 
 /* MOBILE FIRST */
@@ -14,7 +14,7 @@
     top: 0;
     width: 100vw;
     height: 50px;
-    background-color: black;
+    background-color: #332d4f;
     text-decoration: none;
     z-index: 1;
   }
@@ -43,7 +43,7 @@
     height: 50px; /* LOS PX DEBEN SER IGUAL QUE MAIN-NAVBAR*/
     text-decoration: none;
     filter: grayscale(50%) opacity(1);
-    transition: 0.5s all ease;
+    transition: 0.3s all ease;
   }
   .navbar-link:hover{
     filter: grayscale(0%) opacity(1);
@@ -51,7 +51,7 @@
   .fa-primary{
     color: #00baf6;
     height: 30px;
-    transition: 0.5s all ease;
+    transition: 0.3s all ease;
   }
   .link-text{
     display: none;
@@ -87,7 +87,7 @@ section{
 }
 .btn-basic{
     margin: 10px 0px;
-    background-color: black;
+    background-color: #332d4f;
     border-radius: 50px;
     color: white;
     padding: 20px 70px;
@@ -95,7 +95,7 @@ section{
     font-weight: 600;
     cursor: pointer;
     margin-top: 30px;
-    transition: .5s all ease;
+    transition: .3s all ease;
 }
 .btn-basic:hover{
     background-color: #00baf6;
@@ -161,7 +161,7 @@ section{
     transform-origin: top left;
 }
 .img-container-two{
-    background-image: url(./img/section-third/undraw_male_avatar_323b.svg)
+    background-image: url(./img/section-third/undraw_male_avatar_323b.png)
 }
 
 .text-container-two{
@@ -175,7 +175,7 @@ section{
 .prog-link{
     padding: 2px;
     border-radius: 20px;
-    transition: .5s all ease;
+    transition: .3s all ease;
 }
 .prog-link:hover{
     background: white;
@@ -225,7 +225,7 @@ section{
 }
 /*? Section Seven */
 .img-container-seven{
-  background-image: url(./img/section-seven/undraw_project_team_lc5a.svg)
+  background-image: url(./img/section-seven/undraw_team_up_ip2x.svg)
 }
 /* Footer */
 footer{
@@ -242,7 +242,7 @@ footer{
     color: black;
     text-decoration: none;
     font-size: 12px;
-    transition: .5s all ease;
+    transition: .3s all ease;
 }
 .link-text-love:focus{
     outline: none;
@@ -258,10 +258,10 @@ footer{
 .rrss-link{
     padding: 2px;
     border-radius: 20px;
-    transition: .5s all ease;
+    transition: .3s all ease;
 }
 .rrss-link:hover{
-    background: black;
+    background: #332d4f;
 }
 
 /* Media Queries */
@@ -274,7 +274,7 @@ footer{
       top: 0;
       width: 100px;
       height: 0vh;
-      transition: 0.5s all ease;
+      transition: 0.3s all ease;
     }
 
     .main-navbar:hover{
@@ -305,7 +305,7 @@ footer{
     }
 
     .navbar-link:hover{
-      background: #141418;
+      background: #332d4f;
     }
 
     .link-text{
@@ -377,5 +377,5 @@ footer{
 /* BACKGROUND BODY */
 body {
   background-color: #e5e5e5;
-  color: black;
+  color: #332d4f;
 }

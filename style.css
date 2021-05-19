@@ -42,8 +42,8 @@
     justify-content: center;
     height: 50px; /* LOS PX DEBEN SER IGUAL QUE MAIN-NAVBAR*/
     text-decoration: none;
-    filter: grayscale(50%) opacity(1);
-    transition: 0.3s all ease;
+    filter: grayscale(70%) opacity(1);
+    transition: 0.5s all ease;
   }
   .navbar-link:hover{
     filter: grayscale(0%) opacity(1);
@@ -51,12 +51,17 @@
   .fa-primary{
     color: #00baf6;
     height: 30px;
-    transition: 0.3s all ease;
+    transition: 0.6s all ease;
   }
   .link-text{
     display: none;
   }
   
+  /* MAIN */
+main {
+  padding: 0px;
+}
+
 /* SHARE */
 .bg-gradient{
     background: rgb(0,186,246);
@@ -95,16 +100,10 @@ section{
     font-weight: 600;
     cursor: pointer;
     margin-top: 30px;
-    transition: .3s all ease;
+    transition: 0.3s all ease;
 }
 .btn-basic:hover{
     background-color: #00baf6;
-}
-
-/*? HEADER */
-.img-logo{
-    width: 60px;
-    padding: 10px;
 }
 
 /*? Section First */
@@ -130,6 +129,7 @@ section{
 }
 .text-container{
     color: white;
+    margin-right: 20px;
 }
 .sub-heading{
     margin: 10px 0px;
@@ -166,6 +166,7 @@ section{
 
 .text-container-two{
     color: black;
+    margin-left: 20px;
 }
 
 /*? Section Fourth */
@@ -290,7 +291,7 @@ footer{
       justify-content: initial;
     }
 
-    .navbar-item:last-child{
+    .navbar-item:last-child {
       margin-top: auto;
     }
 

@@ -13,12 +13,11 @@
     position: sticky;
     top: 0;
     width: 100vw;
-    height: 50px;
-    background-color: #332d4f;
+    height: 60px;
+    background-color: #241447;
     text-decoration: none;
     z-index: 1;
   }
-  
   .navbar-container{
     list-style: none;
     display: flex;
@@ -40,7 +39,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 50px; /* LOS PX DEBEN SER IGUAL QUE MAIN-NAVBAR*/
+    height: 60px; /* LOS PX DEBEN SER IGUAL QUE MAIN-NAVBAR*/
     text-decoration: none;
     filter: grayscale(70%) opacity(1);
     transition: 0.5s all ease;
@@ -54,7 +53,7 @@
     transition: 0.6s all ease;
   }
   .link-text{
-    display: none;
+    display: flex;
   }
   
   /* MAIN */
@@ -92,9 +91,9 @@ section{
 }
 .btn-basic{
     margin: 10px 0px;
-    background-color: #332d4f;
-    border-radius: 50px;
-    color: white;
+    background-color: #241447;
+    border-radius: 20px;
+    color: #d2d2d2;
     padding: 20px 70px;
     font-size: 15px;
     font-weight: 600;
@@ -103,7 +102,7 @@ section{
     transition: 0.3s all ease;
 }
 .btn-basic:hover{
-    background-color: #00baf6;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 /*? Section First */
@@ -179,12 +178,12 @@ section{
     transition: .3s all ease;
 }
 .prog-link:hover{
-    background: white;
+    background: #d2d2d2;
 }
 
 /*? Section Fifth */
 .section-fifth{
-    margin: 50px 0px;
+    margin: 40px 0px;
 }
 .box{
     text-align: center;
@@ -193,21 +192,11 @@ section{
     box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.18);
     border-radius: 15px;
 }
-.price-container{
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 2px solid #ccc;
-    padding: 10px;
-}
-.price-tag{
-    font-weight: bold;
-    color: #0076ac;
-}
 .box-text{
     margin-top: 30px;
-    text-align: justify;
+    text-align: center;
     color: black;
-    font-size: 13px;
+    font-size: 15px;
 
 }
 
@@ -262,7 +251,7 @@ footer{
     transition: .3s all ease;
 }
 .rrss-link:hover{
-    background: #332d4f;
+    background: #241447;
 }
 
 /* Media Queries */
@@ -291,7 +280,7 @@ footer{
       justify-content: initial;
     }
 
-    .navbar-item:last-child {
+    .navbar-item:last-child{
       margin-top: auto;
     }
 
@@ -306,7 +295,7 @@ footer{
     }
 
     .navbar-link:hover{
-      background: #332d4f;
+      background: #241447;
     }
 
     .link-text{
@@ -377,6 +366,6 @@ footer{
 
 /* BACKGROUND BODY */
 body {
-  background-color: #e5e5e5;
-  color: #332d4f;
+  background-color: #d2d2d2;
+  color: #241447;
 }

@@ -1,7 +1,6 @@
-#My website
-Creado por AtomWhyred, saludos para NavisCode.
+Creado por AtomWhyred, agradecimientos para NavisCode y MiduDev.
 
-Gracias por tus vídeos:
+Gracias por tus vídeo NavisCode:
 https://www.youtube.com/watch?v=nKi5J7cDugg
 
 https://www.youtube.com/watch?v=zeYS_NH_f3E

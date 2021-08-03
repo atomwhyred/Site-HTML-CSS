@@ -1,8 +1,9 @@
 Creado por AtomWhyred, agradecimientos para NavisCode y MiduDev.
 
-Gracias por tus vídeo NavisCode:
-https://www.youtube.com/watch?v=nKi5J7cDugg
+Gracias por tus vídeos NavisCode:
 
-https://www.youtube.com/watch?v=zeYS_NH_f3E
+*https://www.youtube.com/watch?v=nKi5J7cDugg
 
-https://www.youtube.com/watch?v=ppYhWwbyvtk
+*https://www.youtube.com/watch?v=zeYS_NH_f3E
+
+*https://www.youtube.com/watch?v=ppYhWwbyvtk

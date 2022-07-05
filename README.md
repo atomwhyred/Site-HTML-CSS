@@ -2,7 +2,8 @@ Creado por AtomWhyred
 
 https://testwebsitehtmlcss.netlify.app/
 
-Agradecimientos para NavisCode y MiduDev.
+Agradecimientos para NavisCode, MiduDev y MoureDev.
+
 
 Gracias por tus vídeos NavisCode:
 
